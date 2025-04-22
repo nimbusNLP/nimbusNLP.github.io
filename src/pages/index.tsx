@@ -19,7 +19,7 @@ function HomepageHeader() {
             Nimbus
           </h1>
           <p className="hero__subtitle">
-            An open-source NLP deployment framework designed for small teams.
+          A lightweight, open-source Natural Language Processing (NLP) deployment framework built for small teams and individuals
           </p>
           <div className={styles.buttons}>
             <a

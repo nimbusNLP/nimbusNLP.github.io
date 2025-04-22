@@ -12,9 +12,9 @@ const Team = () => {
             image="/img/nimbusMain.png"
             location="Austin, TX"
             personalWebsite=""
-            github="https://github.com/archzedzenrun"
-            linkedin="https://www.linkedin.com/in/cruz-hernandez-968778314/"
-            email="cmhernandezdev@gmail.com"
+            github="https://github.com/Chelsoconn"
+            linkedin="https://www.linkedin.com/in/chelsea-o-connor-4226a89a/"
+            email="chelseaaoconnor1@gmail.com"
           />
           <Member
             name="Satya Patel"
@@ -22,9 +22,9 @@ const Team = () => {
             image="/img/nimbusMain.png"
             location="Jersey City, NJ"
             personalWebsite=""
-            github="https://github.com/nickperry12"
-            linkedin="https://www.linkedin.com/in/nick-perry-9b86b2318/"
-            email="nick.perry604@gmail.com"
+            github="https://github.com/satyapatel293"
+            linkedin="https://www.linkedin.com/in/satya-patel-434646236/"
+            email="satyapatel293@gmail.com"
           />
           <Member
             name="JD Fortune"
@@ -32,9 +32,9 @@ const Team = () => {
             image="/img/nimbusMain.png"
             location="Austin, TX"
             personalWebsite=""
-            github="https://github.com/jeffbbz"
-            linkedin="https://www.linkedin.com/in/paco-michelson-29702b1b5/"
-            email="paco.michelson@gmail.com"
+            github="https://github.com/JDFortune"
+            linkedin="https://www.linkedin.com/in/jon-david-fortune-4263201b2/"
+            email="jondfortune@gmail.com"
           />
           <Member
             name="Richard LoRicco"
@@ -42,9 +42,9 @@ const Team = () => {
             image="/img/nimbusMain.png"
             location="New Haven, CT"
             personalWebsite=""
-            github="https://github.com/ekim1009"
-            linkedin="https://www.linkedin.com/in/esther-kim-189787b0/"
-            email="esther.kim0910@gmail.com"
+            github="https://github.com/RichardLoRicco"
+            linkedin="https://www.linkedin.com/in/richard-loricco-esq/"
+            email="rtlo9962@gmail.com"
           />
         </div>
         {/* <img className="cactus" src="../../img/cactus_cursor2.png"/> */}
