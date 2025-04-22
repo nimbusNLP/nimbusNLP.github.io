@@ -1,0 +1,13 @@
+body {
+  height: 100vh; /* Full height */
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+#cursor-gif {
+  position: absolute; /* Position it absolutely */
+  pointer-events: none; /* Prevent the GIF from interfering with mouse events */
+  width: 50px; /* Set the width of the GIF */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.1s; /* Smooth movement */
+}
