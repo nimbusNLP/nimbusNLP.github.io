@@ -37,7 +37,7 @@ const Section1 = () => {
       </div>
       <div className="w-full sm:w-[80%] md:w-[60%] block">
         <img
-          src="/img/nimbusMain.png"
+          src="/img/FinalShortenedFullDeployment.gif"
           alt="Tumbleweed Roll Clip"
           className="align-top object-contain border-2 rounded-[20px] shadow-[0_0_20px_#AA8976] border-[#E5E7EB]"
         />
@@ -50,7 +50,7 @@ const Section2 = () => {
   return (
     <div className="max-w-full mx-auto flex flex-wrap md:flex-nowrap justify-center gap-5 py-8 2xl:px-48 lg:py-20 bg-gray-200 px-8 sectionA place-items-center">
       <div className="w-full sm:w-[100%] md:w-[90%] 2xl:w-[85%] block">
-        <img src="/img/nimbusMain.png" alt="Producer Consumer Image" />
+        <img src="/img/index3image.png" alt="Producer Consumer Image" />
       </div>
       <div className="text-center md:w-[60%]">
         <h1 className="text-[#55C2DA] text-4xl md:text-[4rem] font-medium tracking-tight leading-tight md:leading-[52px] mt-0 text-right">

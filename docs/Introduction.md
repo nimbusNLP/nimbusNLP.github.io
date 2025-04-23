@@ -7,7 +7,7 @@ sidebar_position: 1
 # 1. Introduction
 
 <figure>
-  <img src="/img/nimbusMain.png" className="Nimby Logo" alt="Nimby Logo" width="70%"/>
+  <img src="/img/intro.png" className="intro image" alt="Intro image" width="70%"/>
 </figure>
 
 Nimbus is an open-source framework designed to make it easy for developers to deploy lightweight, task-specific Natural Language Processing (NLP) models into production and automatically expose them via HTTP endpoints. While these models can offer valuable insights, getting them deployed typically requires significant cloud expertise, infrastructure setup, and ongoing maintenance—barriers that many individuals or small teams can’t afford to overcome.
