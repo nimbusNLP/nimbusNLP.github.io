@@ -78,7 +78,7 @@ const config: Config = {
         },
         {
           to: 'walkthrough',
-          label: 'Docs',
+          label: 'Walkthrough',
           position: 'right'
         },
         {
