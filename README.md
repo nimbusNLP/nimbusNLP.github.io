@@ -1,4 +1,4 @@
-<figure>
+<figure className="grid justify-items-center" >
   <img src="/static/img/nimbusMain.png" className="intro image" alt="Intro image" width="70%"/>
 </figure>
 
