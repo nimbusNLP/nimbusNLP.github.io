@@ -77,6 +77,11 @@ const config: Config = {
           position: 'right'
         },
         {
+          to: 'walkthrough',
+          label: 'Docs',
+          position: 'right'
+        },
+        {
           to: "/#team",
           label: "TEAM",
           position: "right",
