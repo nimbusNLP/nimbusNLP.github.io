@@ -2,7 +2,7 @@ import Member from "./Member";
 const Team = () => {
   return (
     <>
-    <section className="sectionB bg-gradient-to-t from-[#FFB703] to-[#FFB703]" id="team">
+    <section className="sectionB bg-gradient-to-t from-[#FFB703] to-[#FFB803]" id="team">
       <article className="max-w-6xl mx-auto flex flex-col justify-center gap-8 py-20 px-6">
         <h2 className="lp-para text-center text-5xl tracking-wide font-bold text-[#55C2DA] mb-6">Team Nimbus</h2>
         <div className="flex flex-col md:flex-row gap-2 md:gap-8 mx-auto">
@@ -47,7 +47,6 @@ const Team = () => {
             email="satyapatel293@gmail.com"
           />
         </div>
-        {/* <img className="cactus" src="../../img/cactus_cursor2.png"/> */}
       </article>   
     </section>
     
