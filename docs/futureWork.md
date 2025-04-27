@@ -36,7 +36,7 @@ This improvement would open up Nimbus to additional cloud environments such as G
 ## Function-Specific Endpoints
 
 <figure>
-  <img src="/img/futureWork.png" className="image" alt="multiple endpoints image" width="70%"/>
+  <img src="/img/futureWork_v2.png" className="image" alt="multiple endpoints image" width="90%"/>
 </figure>
 
 Expanding Nimbus to support multiple, function-specific endpoints in a single deployment would empower users to expose discrete model operations, rather than the monolithic `/predict` route. For example, one might deploy distinct paths such as `/ner` for named‑entity recognition or `/tokenize` for preprocessing, allowing users to invoke only the pipeline component they need. By scoping each endpoint to a specific Lambda handler, one can minimize HTTP payloads and latency, since requests and responses carry only the relevant data.

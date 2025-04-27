@@ -29,7 +29,7 @@ The key advantages driving this decision were Lambda's **automatic scaling** bas
 This choice required accepting certain **trade-offs** inherent to Lambda. These include the 15-minute maximum execution duration, memory limits (up to 10GB), lack of direct GPU access, and the potential for **cold start latency** on infrequent invocations.
 
 <figure>
-  <img src="/img/dockerizedLambda.png" className="image" alt="dockerized lambda image" width="70%"/>
+  <img src="/img/dockerizedLambda.png" className="image" alt="dockerized lambda image" width="30%"/>
 </figure>
 
 ### Justification for Choosing Lambda
@@ -37,7 +37,7 @@ This choice required accepting certain **trade-offs** inherent to Lambda. These 
 After evaluating both options, the Dockerized Lambda approach was chosen because its benefits directly addressed Nimbus's primary objectives, while its limitations were considered acceptable for the target use case. The significant reduction in operational overhead, the cost model optimized for sporadic usage, and the ease of packaging complex dependencies via Docker outweighed the constraints on execution time and resources. While Fargate offered more flexibility in some areas, its orchestration requirements and less granular pricing model presented potential barriers to the simplicity and cost-effectiveness Nimbus aims to provide. Therefore, Lambda provided the optimal balance, best embodying Nimbus's value proposition of abstraction and simplicity for individual developers and small teams deploying task-specific NLP models.
 
 <figure>
-  <img src="/img/LambdaFargateComparison.png" className="image" alt="lambda vs fargate image" width="70%"/>
+  <img src="/img/LambdaFargateComparison.png" className="image" alt="lambda vs fargate image" width="80%"/>
 </figure>
 
 ## AWS CDK vs. AWS SDK

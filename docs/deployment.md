@@ -108,12 +108,12 @@ For Nimbus, batch processing aligns closely with the needs of our target users�
 Given the aforementioned challenges and the choice between batch and real-time strategies, teams usually rely on external deployment solutions, each with its own strengths and drawbacks. Existing options generally fall into three categories:
 
 ### Managed Platforms
-
 <figure>
   <img src="/img/SageMakerComic.png" className="image" alt="Sage maker image" width="70%"/>
 </figure>
 
 Managed platforms like **AWS SageMaker** simplify deployment significantly by providing _pre-configured infrastructure_ and _built-in scalability_. They handle many underlying complexities and offer convenient tools for monitoring and managing models. These services, however, are often expensive, particularly for smaller or budget-conscious teams, as costs can quickly accumulate, especially with continuous or idle usage. Additionally, managed services may result in vendor lock-in, restricting flexibility and control over infrastructure and data privacy. As a result, these platforms, while powerful and user-friendly, often don’t align well with smaller teams’ needs or budgets.
+
 
 ### Open-Source Model-Serving Frameworks
 

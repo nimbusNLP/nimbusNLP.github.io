@@ -23,7 +23,7 @@ These components work together to automate NLP model serving in a cost-effective
 The Nimbus **Command Line Interface (CLI)** streamlines the deployment experience, abstracting away infrastructure complexities. The CLI is the central orchestration tool for deploying and managing NLP models.
 
 <figure>
-  <img src="/img/CLICommands.png" className="image" alt="CLI command image" width="70%"/>
+  <img src="/img/CLICommands.png" className="image" alt="CLI command image" width="40%"/>
 </figure>
 
 The CLI’s primary responsibilities include:
@@ -52,7 +52,7 @@ When a user initiates a deployment through the CLI, CDK incrementally updates in
 ## Model Serving Runtime – AWS Lambda
 
 <figure>
-  <img src="/img/gatewayLambda.png" className="image" alt="api gateway image" width="70%"/>
+  <img src="/img/gatewayLambda.png" className="image" alt="api gateway image" width="30%"/>
 </figure>
 
 AWS Lambda functions form the runtime environment for Nimbus deployments, enabling scalable, serverless inference execution. Lambda offers several key benefits aligned with Nimbus’s objectives:
@@ -66,7 +66,7 @@ A standardized Python runtime script and Dockerfile ensure predictable behavior 
 ## Data Flow and Deployment State Management
 
 <figure>
-  <img src="/img/dataflow.png" className="image" alt="data flow image" width="70%"/>
+  <img src="/img/dataflow_v2.png" className="image" alt="data flow image" width="85%"/>
 </figure>
 
 Nimbus maintains deployment state locally through the configuration file stored in the user’s configured artifacts directory, which is created upon first use of the Nimbus CLI. This local file tracks intended deployments and their metadata, forming the source of truth for all deployment operations.
@@ -86,5 +86,5 @@ For deployed models, prediction requests flow securely from end-users or client 
 While not a core component of Nimbus’s infrastructure, the Nimbus Playground provides users with a convenient local interface to test deployed models interactively. Launched through the CLI, this lightweight, React-based interface allows quick verification of model deployments and functionality before integration into broader systems or internal workflows.
 
 <figure>
-  <img src="/img/playgroundPrediciton.png" className="image" alt="playgorund image" width="70%"/>
+  <img src="/img/playgroundPrediciton_v2.png" className="image" alt="playgorund image" width="85%"/>
 </figure>
