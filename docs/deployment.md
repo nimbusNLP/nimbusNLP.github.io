@@ -41,7 +41,7 @@ Teams, especially those without dedicated MLOps or DevOps specialists, often fac
 - **Scalability and Performance**: Ensuring the service can handle the required load and meet latency requirements.
 
 <figure>
-  <img src="/img/deplolymentChallenges.png" className="image" alt="Deployment Challanges image" width="70%"/>
+  <img src="/img/deploymentChallenges.png" className="image" alt="Deployment Challanges image" width="70%"/>
 </figure>
 
 Many deployment workflows remain fragile and sensitive to inconsistencies between development and production. This is especially problematic in teams without dedicated expertise, where deployment becomes a bottleneck.
@@ -49,7 +49,7 @@ Many deployment workflows remain fragile and sensitive to inconsistencies betwee
 ## Roles and Responsibilities
 
 <figure>
-  <img src="/img/deploymentGap.png" className="image" alt="image" width="70%"/>
+  <img src="/img/deploymentGap_fixedCliff.png" className="image" alt="image" width="85%"/>
 </figure>
 
 Successfully navigating the ML lifecycle typically involves distinct roles:
@@ -132,13 +132,4 @@ Open-source model-serving frameworks like BentoML offer greater flexibility and 
 The 'do-it-yourself' approach, using tools like Flask/FastAPI and Docker, offers more control but comes at a high cost in complexity and effort. Teams choosing this path must manually build and maintain the entire infrastructure stack needed to serve their model, which is a significant and often underestimated task. This involves constructing everything from the ground up, a process that is not only complex and time-consuming but also difficult to standardize; this can lead to inconsistencies and errors.
 
 ## Current Deployment Gap
-
-<figure>
-  <img src="/img/toolingGapChart.png" className="image" alt="tooling gap chart image" width="70%"/>
-</figure>
-
-The complexities inherent in NLP model deployment, the associated skill gaps, and the tradeoffs accompanying existing solutions collectively create a clearly identified deployment gap. Small data science teams and individual researchers often find themselves forced to choose between expensive managed services, overly complex open-source tools, or labor-and-expertise-intensive DIY setups.
-
-This highlights a need for a simpler, more accessible way to deploy lightweight NLP models. Many teams require solutions that abstract away the intricate details of cloud infrastructure, containerization, API development, and ongoing operations. The ideal solution, particularly for smaller teams and batch-oriented or intermittent use cases, would automate the MLOps tasks, enabling data scientists to focus on model optimization and developers to focus on creatively integrating those models into their applications.
-
-This creates the perfect context for Nimbus: a tool designed specifically to fill this deployment gap by providing an automated, simple, and cost-effective pathway to get lightweight NLP models (currently SpaCy models for batch processing) into production quickly and reliably, without requiring deep MLOps expertise.
+ly to fill this deployment gap by providing an automated, simple, and cost-effective pathway to get lightweight NLP models (currently SpaCy models for batch processing) into production quickly and reliably, without requiring deep MLOps expertise.
