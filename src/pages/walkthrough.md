@@ -9,7 +9,7 @@ To illustrate this, let’s walk through a typical user journey. The goal is to 
 First, the user installs the Nimbus Command Line Interface (CLI) as a global NPM package. To do this, the user runs the following command in their terminal: `npm i -g nimbusnlp`.
 
 <figure>
-  <div className="w-full sm:w-[80%] md:w-[60%] block">
+  <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
       src="/img/gifs/FinalNimbusDownload.gif"
       alt="nimbus download clip"
@@ -21,7 +21,7 @@ First, the user installs the Nimbus Command Line Interface (CLI) as a global NPM
 Before the user can take any action using the CLI, they will be prompted to approve their current working where Nimbus will create a directory to store the local configurations and artifacts. If the user would prefer to have this placed in a different location, they can cancel the process and call the CLI command from their desired location.
 
 <figure>
-  <div className="w-full sm:w-[80%] md:w-[60%] block">
+  <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
       src="/img/gifs/localFileLocation.png"
       alt="local file confirmation prompt"
@@ -33,7 +33,7 @@ Before the user can take any action using the CLI, they will be prompted to appr
 Once installed, the `nimbusCLI` command provides access to the framework’s core functionalities through several sub-commands, which are designed to manage the entire deployment lifecycle. The user can see a list of these commands in the CLI by entering `nimbusCLI` into their console.
 
 <figure>
-  <div className="w-full sm:w-[80%] md:w-[60%] block">
+  <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
       src="/img/gifs/nimbusCLI.png"
       alt="nimbusCLI command"
@@ -55,7 +55,7 @@ The primary commands available to the user are:
 As our hypothetical user has no models deployed yet, they will want to begin by deploying a model. To deploy a model, the user will run `nimbusCLI deploy`.
 
 <figure>
-  <div className="w-full sm:w-[80%] md:w-[60%] block">
+  <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
       src="/img/gifs/FinalModelDeployment.gif"
       alt="nimbus deploy clip"
@@ -74,7 +74,7 @@ The CLI uses interactive prompts in order to gather the details necessary for de
 Upon successful completion of the deployment, Nimbus displays a confirmation and provides the unique HTTPS URL of the model's prediction endpoint, obtained from the CDK deployment outputs, and the API Gateway key needed to access the models.
 
 <figure>
-  <div className="w-full sm:w-[80%] md:w-[60%] block">
+  <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
       src="/img/gifs/deployedEndpoint.png"
       alt="deployed endpoint clip"
@@ -90,7 +90,7 @@ The user is then free to immediately use the endpoint URL to send prediction req
 Once a model is deployed, the user can verify the deployment status using `nimbusCLI list`, which displays a list of their deployed models, including the name, description, and endpoint for each model.
 
 <figure>
-  <div className="w-full sm:w-[80%] md:w-[60%] block">
+  <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
       src="/img/gifs/FinalList.gif"
       alt="list clip"
@@ -104,7 +104,7 @@ Once a model is deployed, the user can verify the deployment status using `nimbu
 Alternatively, the user can visualize and test their recently deployed model(s) through the web dashboard launched by `nimbusCLI ui`. Upon entering this command, the Nimbus Playground will be opened on the user’s default browser automatically.
 
 <figure>
-  <div className="w-full sm:w-[80%] md:w-[60%] block">
+  <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
       src="/img/gifs/OpenUI.gif"
       alt="open UI clip"
@@ -116,7 +116,7 @@ Alternatively, the user can visualize and test their recently deployed model(s) 
 In the **Nimbus Playground**, the user can test their deployed models and send requests. For example, if the user has 2 models deployed, they can access and send requests to either model easily.
 
 <figure>
-  <div className="w-full sm:w-[80%] md:w-[60%] block">
+  <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
       src="/img/gifs/UIModelQuery.gif"
       alt="interact with UI clip"
@@ -130,7 +130,7 @@ In the **Nimbus Playground**, the user can test their deployed models and send r
 When no longer needed in production, individual models can be removed using `nimbusCLI delete`. Upon executing this command. The user will be shown a list of the deployed models, from which they can select the model they wish to be removed from deployment.
 
 <figure>
-  <div className="w-full sm:w-[80%] md:w-[60%] block">
+  <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
       src="/img/gifs/deletemodel.gif"
       alt="delete model clip"
@@ -144,7 +144,7 @@ When no longer needed in production, individual models can be removed using `nim
 Should the user wish to tear down their entire infrastructure, including the API Gateway and all deployed models , they can do this using `nimbusCLI destroy`.
 
 <figure>
-  <div className="w-full sm:w-[80%] md:w-[60%] block">
+  <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
       src="/img/gifs/Destroy.gif"
       alt="teardown clip"
