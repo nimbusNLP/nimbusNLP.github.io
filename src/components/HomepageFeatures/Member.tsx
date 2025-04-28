@@ -22,7 +22,7 @@ function Member({
   return (
     <div className="portrait-card flex flex-col">
       <div>
-        <img className="max-h-64 portrait-img" src={image} />
+        <img className="max-h-64 portrait-img" src={image} alt="Portrait of user"/>
       </div>
       <p className="lp-name text-[#331e14] text-lg font-semibold text-center mt-2 mb-0 p-override pb-4 md:pb-0">
         {name}
