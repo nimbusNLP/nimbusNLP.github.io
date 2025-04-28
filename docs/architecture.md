@@ -73,7 +73,7 @@ Nimbus maintains deployment state locally through the configuration file stored 
 
 In the cloud, AWS CloudFormation manages actual deployed resource states, providing synchronization between the intended state (as codified in the local configuration file) and the infrastructure state. Users do not need to manage cloud infrastructure manually—CDK automates resource creation, updates, and deletion based on the local state file.
 
-This approach reflects a design choice: on a small team, the focus is on use and accessibility of the models.. As a result, there is no operational need to externalize or centralize deployment configurations in the cloud. By avoiding additional cloud services for state management, Nimbus simplifies the overall experience while reducing infrastructure complexity and cost.
+This approach reflects a design choice: on a small team, the focus is on use and accessibility of the models. As a result, there is no operational need to externalize or centralize deployment configurations in the cloud. By avoiding additional cloud services for state management, Nimbus simplifies the overall experience while reducing infrastructure complexity and cost.
 
 For deployed models, prediction requests flow securely from end-users or client applications through API Gateway endpoints to the corresponding Lambda function for inference. After processing, Lambda returns predictions back through API Gateway, completing the cycle.
 

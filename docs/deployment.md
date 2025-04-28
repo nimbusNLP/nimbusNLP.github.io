@@ -132,4 +132,12 @@ Open-source model-serving frameworks like BentoML offer greater flexibility and 
 The 'do-it-yourself' approach, using tools like Flask/FastAPI and Docker, offers more control but comes at a high cost in complexity and effort. Teams choosing this path must manually build and maintain the entire infrastructure stack needed to serve their model, which is a significant and often underestimated task. This involves constructing everything from the ground up, a process that is not only complex and time-consuming but also difficult to standardize; this can lead to inconsistencies and errors.
 
 ## Current Deployment Gap
-ly to fill this deployment gap by providing an automated, simple, and cost-effective pathway to get lightweight NLP models (currently SpaCy models for batch processing) into production quickly and reliably, without requiring deep MLOps expertise.
+The complexities inherent in NLP model deployment, the associated skill gaps, and the tradeoffs accompanying existing solutions collectively create a clearly identified deployment gap. Small data science teams and individual researchers often find themselves forced to choose between expensive managed services, overly complex open-source tools, or labor-and-expertise-intensive DIY setups.
+
+<figure>
+  <img src="/img/toolingGapChart.png" className="image" alt="tooling gap chart image" width="70%"/>
+</figure>
+
+This highlights a need for a simpler, more accessible way to deploy lightweight NLP models. Many teams require solutions that abstract away the intricate details of cloud infrastructure, containerization, API development, and ongoing operations. The ideal solution, particularly for smaller teams and batch-oriented or intermittent use cases, would automate the MLOps tasks, enabling data scientists to focus on model optimization and developers to focus on creatively integrating those models into their applications.
+
+This creates the perfect context for Nimbus: a tool designed specifically to fill this deployment gap by providing an automated, simple, and cost-effective pathway to get lightweight NLP models (currently SpaCy models for batch processing) into production quickly and reliably, without requiring deep MLOps expertise.

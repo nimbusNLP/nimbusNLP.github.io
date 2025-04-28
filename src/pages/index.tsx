@@ -24,7 +24,6 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <a
               href="/docs/introduction" className="hero_button"
-              // className="text-white font-normal px-5 text-lg py-3 rounded-full bg-twGreen-600 antialiased inline-block mt-6 hover:no-underline hover:text-white hover:bg-twGreenLight transition "
             >
               Read Case Study
             </a>

@@ -50,7 +50,7 @@ const Section2 = () => {
   return (
     <div className="max-w-full mx-auto flex flex-wrap md:flex-nowrap justify-center gap-5 py-8 2xl:px-48 lg:py-20 bg-gray-200 px-8 sectionA place-items-center">
       <div className="w-full sm:w-[100%] md:w-[90%] 2xl:w-[85%] block">
-        <img src="/img/index3image.png" alt="Producer Consumer Image" />
+        <img src="/img/APIChart.png" alt="API chart image" />
       </div>
       <div className="text-center md:w-[60%]">
         <h1 className="text-[#55C2DA] text-4xl md:text-[4rem] font-medium tracking-tight leading-tight md:leading-[52px] mt-0 text-right">
@@ -63,31 +63,6 @@ const Section2 = () => {
     </div>
   );
 };
-
-// const Section3 = () => {
-//   return (
-//     <div className="max-w-full mx-auto flex flex-wrap md:flex-nowrap justify-start py-8 gap-5 2xl:px-48 lg:py-20 bg-gray-200 px-8 items-center">
-//       <div className="text-center py-0">
-//         <h1 className="text-[#55C2DA] text-left text-4xl md:text-[4rem] font-medium tracking-tight leading-tight md:leading-[52px] mt-0">
-//           Intuitive UI
-//         </h1>
-//         <p className="text-[#003049] text-2xl tracking-wide mt-6 mb-2 text-left font-normal pr-[80px]">
-//           Simplifies the setup and management of source connectors, consumers, and topics.
-//         </p>
-//       </div>
-//       <div className="w-full sm:w-[90%] md:w-[80%] 2xl:w-[70%] block">
-//         <video
-//           autoPlay
-//           loop
-//           muted
-//           playsInline
-//           className="align-top object-contain border-2 rounded-[20px] shadow-[0_0_20px_#AA8976] border-[#70AF85]"
-//           src='/img/ui_demo_4.mp4'
-//         />
-//       </div>
-//     </div>
-//   );
-// }
 
 export default function HomepageFeatures(): JSX.Element {
   return (
