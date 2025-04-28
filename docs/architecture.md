@@ -18,6 +18,8 @@ Nimbus utilizes a serverless architecture designed to minimize operational compl
 
 These components work together to automate NLP model serving in a cost-effective, secure, and reliable manner.
 
+To see Nimbus in action please visit our [Walkthrough page](/docs/walkThrough.md).
+
 ## Orchestration - Nimbus CLI
 
 The Nimbus **Command Line Interface (CLI)** streamlines the deployment experience, abstracting away infrastructure complexities. The CLI is the central orchestration tool for deploying and managing NLP models.
@@ -49,7 +51,7 @@ The core AWS resources provisioned by the CDK include:
 
 When a user initiates a deployment through the CLI, CDK incrementally updates infrastructure based on detected changes in the CloudFormation templates. Only new or modified models trigger resource updates, ensuring efficient deployments.
 
-## Model Serving Runtime – AWS Lambda
+## Model Serving Runtime - AWS Lambda
 
 <figure>
   <img src="/img/gatewayLambda.png" className="image" alt="api gateway image" width="30%"/>
@@ -81,10 +83,13 @@ For deployed models, prediction requests flow securely from end-users or client 
   <img src="/img/architectureFull.png" className="image" alt="full architecture image" width="70%"/>
 </figure>
 
-## Nimbus UI (Playground) – Supporting Tool for Model Testing
+## Nimbus UI - Playground
 
 While not a core component of Nimbus’s infrastructure, the Nimbus Playground provides users with a convenient local interface to test deployed models interactively. Launched through the CLI, this lightweight, React-based interface allows quick verification of model deployments and functionality before integration into broader systems or internal workflows.
 
 <figure>
   <img src="/img/playgroundPrediciton_v2.png" className="image" alt="playgorund image" width="85%"/>
 </figure>
+
+
+To see Nimbus in action please visit our [Walkthrough page](/docs/walkThrough.md).

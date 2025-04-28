@@ -1,5 +1,5 @@
 ---
-id: futureWorkd
+id: futureWork
 sidebar_label: 6. Future Work
 sidebar_position: 6
 ---

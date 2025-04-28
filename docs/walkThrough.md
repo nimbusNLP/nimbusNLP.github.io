@@ -1,3 +1,9 @@
+---
+id: walkthrough
+sidebar_label: Walkthrough
+sidebar_position: 7
+---
+
 # Nimbus Walkthrough
 
 Nimbus was created in order provide a lightweight, easy-to-use framework for small teams deploying lightweight, task-focused NLP models.
