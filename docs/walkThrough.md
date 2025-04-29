@@ -41,7 +41,7 @@ Once installed, the `nimbusCLI` command provides access to the framework’s cor
 <figure>
   <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
-      src="/img/gifs/NimbusCLI.png"
+      src="/img/gifs/nimbusCLI.png"
       alt="nimbusCLI command"
       className="align-top object-contain border-2 rounded-[20px] shadow-[0_0_20px_#AA8976] border-[#E5E7EB]"
     />
