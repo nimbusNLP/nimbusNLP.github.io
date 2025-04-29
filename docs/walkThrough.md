@@ -41,7 +41,7 @@ Once installed, the `nimbusCLI` command provides access to the framework’s cor
 <figure>
   <div className="w-full sm:w-[100%] md:w-[100%] block">
     <img
-      src="/img/gifs/nimbusCLI.png"
+      src="/img/gifs/NimbusCLI.png"
       alt="nimbusCLI command"
       className="align-top object-contain border-2 rounded-[20px] shadow-[0_0_20px_#AA8976] border-[#E5E7EB]"
     />
@@ -74,7 +74,7 @@ The CLI uses interactive prompts in order to gather the details necessary for de
 
 - The type of model (‘pre-trained’ or ‘fine-tuned’);
 - A unique name for the deployed model;
-- The source (either a pre-trained model identifier or the local path to the user’s model directory; and
+- The source (either a pre-trained model identifier or the local path to the user’s model directory); and
 - An optional description.
 
 Upon successful completion of the deployment, Nimbus displays a confirmation and provides the unique HTTPS URL of the model's prediction endpoint, obtained from the CDK deployment outputs, and the API Gateway key needed to access the models.
